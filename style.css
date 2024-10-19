@@ -1,0 +1,52 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 1.5em;
+  color: #333;
+}
+
+#quote {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #555;
+}
+
+#author {
+  font-size: 1.2em;
+  color: #888;
+  margin-top: 1em;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2em;
+}
+
+button:hover {
+  background-color: #218838;
+}
